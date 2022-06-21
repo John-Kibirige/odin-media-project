@@ -1,0 +1,73 @@
+html {
+   box-sizing: border-box;
+}
+
+*,
+*::after,
+*::before {
+   box-sizing: inherit;
+   padding: 0;
+   margin: 0;
+}
+
+body {
+   font-family: Roboto, Arial, sans-serif;
+   background-color: red;
+}
+
+.main {
+   display: flex;
+   margin: 50px 100px;
+
+   justify-content: space-between;
+
+   .video {
+      &-div {
+         iframe {
+            width: 705px;
+            height: 407px;
+         }
+      }
+
+      &-title {
+      }
+
+      h3 {
+      }
+
+      p {
+      }
+
+      &-description {
+      }
+   }
+
+   .side-bar {
+      border: thin solid blue;
+      width: 400px;
+
+      nav {
+         padding: 12px;
+         a {
+            text-decoration: none;
+            color: black;
+            border-radius: 15px;
+            padding: 8px 14px;
+            background-color: #e9e9e9;
+            font-size: 14px;
+            transition: all 200ms ease-in-out;
+         }
+
+         a:hover {
+            background-color: lightgray;
+         }
+
+         a:active {
+            background-color: black;
+         }
+      }
+      .all-suggestions {
+         background-color: brown;
+      }
+   }
+}
