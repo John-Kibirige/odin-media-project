@@ -8,13 +8,14 @@ html {
    box-sizing: inherit;
    padding: 0;
    margin: 0;
+   font-family: Roboto, Arial, sans-serif;
 }
 
 body {
-   font-family: Roboto, Arial, sans-serif;
+   background-color: #f6f6f6;
 }
 .main {
    display: flex;
-   margin: 50px 100px;
+   margin: 50px 50px 20px 100px;
    justify-content: space-between;
 }
